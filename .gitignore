@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging files
+.Python
+env/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Ignore local development settings
+.idea/
+.vscode/
+*.env
+
+# Ignore compiled UI files and resources
+app/ui/*.py
+app/ui/*.pyc
+app/ui/*.ui
+app/ui/*.qrc
+app/ui/*.qrc.py
+
+# Ignore any logs or temporary files
+*.log
+*.swp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore PyInstaler build and temporary files
+/dist/
+/build/
+/*.spec
+
+# Ignore virtual environment
+/env/
+/venv/
+/.venv/
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*~
+
+# Ignore generated Docker images and containers
+docker/*.log
+docker/*.pid
+docker/*.gz
+
+
+################### for c++
+
+# Ignore Dev-C++ specific files
+*.dev
+*.layout
+*.project
+Makefile.win
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled resource files
+*.res
+
+# Ignore executables
+*.exe
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore backup and temporary files
+*~
+*.bak
+*.tmp
+*.temp
+
+# Ignore build directories
+build/
+Debug/
+Release/
+
+# Ignore user-specific settings
+*.log
+*.user
+
+# Ignore Windows specific files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Ignore macOS specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
